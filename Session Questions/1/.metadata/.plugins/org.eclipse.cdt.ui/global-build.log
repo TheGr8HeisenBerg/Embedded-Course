@@ -1,0 +1,7 @@
+05:31:07 **** Rebuild of configuration Debug for project Question 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question 2.o" "..\\src\\Question 2.c" 
+gcc -o "Question 2.exe" "src\\Question 2.o" 
+Info: Nothing to build for Question 2
+Info: Nothing to build for Question 2
+Info: Nothing to build for Question 2
