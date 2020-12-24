@@ -1,8 +1,8 @@
 /*
  ============================================================================
- Name        : Question_1.c
+ Name        : Question_2.c
  Author      : Youssef El-Nemaky
- Description : Question No.1 Solution
+ Description : solution for question 2
  ============================================================================
  */
 
@@ -12,13 +12,15 @@
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);
 	setvbuf(stderr, NULL, _IONBF, 0);
-	int num1 , num2;
-	printf("Enter your first number: ");
-	scanf("%d", &num1);
+	float grade;
+	char name[50];
 
-	printf("Enter your second number: ");
-	scanf("%d", &num2);
+	printf("Enter your name: ");
+	scanf("%s", name);
 
-	printf("((%d + %d) * 3 ) - 10 = %d",num1, num2, (num1 + num2) * 3 -10);
+	printf("Enter your grade: ");
+	scanf("%f", &grade);
+
+	printf("Your name is: %s and your grade is %.2f", name , grade);
 	return 0;
 }

@@ -1,2 +1,5 @@
-Info: Nothing to build for Question_1
-Info: Nothing to build for Question_1
+02:01:10 **** Incremental Build of configuration Debug for project Question_3 ****
+Info: Internal Builder is used for build
+gcc -o Question_3.exe "src\\Question_3.o" 
+Info: Nothing to build for Question_3
+Info: Nothing to build for Question_3
