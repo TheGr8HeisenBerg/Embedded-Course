@@ -2,8 +2,6 @@
  ============================================================================
  Name        : Question_17.c
  Author      : Youssef El-Nemaky
- Version     :
- Copyright   : 
  Description : A program that counts number of digits in a decimal number.
  ============================================================================
  */
