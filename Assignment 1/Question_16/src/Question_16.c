@@ -2,9 +2,7 @@
  ============================================================================
  Name        : Question_16.c
  Author      : Youssef El-Nemaky
- Version     :
- Copyright   : 
- Description : Hello World in C, Ansi-style
+ Description : A program to reverse a number.
  ============================================================================
  */
 
@@ -12,6 +10,18 @@
 #include <stdlib.h>
 
 int main(void) {
-	puts("Hello World"); /* prints Hello World */
-	return EXIT_SUCCESS;
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	int number, reversedNumber = 0;
+	printf("Enter your number to reverse: ");
+	scanf("%d", &number);
+
+	while(number != 0){
+		reversedNumber = reversedNumber * 10 + (number % 10);
+		number /= 10;
+	}
+
+	printf("The number reversed = %d", reversedNumber);
+	return 0;
 }
