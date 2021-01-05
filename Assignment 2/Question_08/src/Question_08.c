@@ -19,7 +19,7 @@ int main(void) {
 
 	int number1, number2;
 
-	printf("Enter the start and the end of your range: ");
+	printf("Enter the start and the end of your interval: ");
 	scanf("%d %d", &number1 , &number2);
 
 	printPrimes(number1, number2);
