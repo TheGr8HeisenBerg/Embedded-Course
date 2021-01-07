@@ -10,6 +10,8 @@ paths in the digit. Their values are:
 - 1, 2, 3, 5 and 7 = 0 holes.
 - 0, 4, 6, and 9 = 1 hole.
 - 8 = 2 holes.
+Given a number, you must determine the sum of the number of holes for
+all of its digits. For example, the number 819 has 3 holes.
  ============================================================================
  */
 
