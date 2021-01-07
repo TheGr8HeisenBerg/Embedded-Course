@@ -32,6 +32,8 @@ int main(void) {
 
 
 int isPowerOfTwo(int number){
+	if(number == 0) return 0;
+
 	while(number != 1){
 		if(number % 2 != 0){
 			return 0;
