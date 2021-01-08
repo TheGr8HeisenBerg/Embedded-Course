@@ -1,0 +1,25 @@
+!SESSION 2021-01-08 04:12:52.261 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-08 04:13:13.644
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jigam'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.qt.core 4 0 2021-01-08 04:14:48.649
+!MESSAGE Error: Nashorn script engine is not available in Java 15 and above. The QML Analyzer is not supported.
+!STACK 0
+javax.script.ScriptException: Nashorn script engine is not available in Java 15 and above. The QML Analyzer is not supported.
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.load(QMLAnalyzer.java:55)
+	at org.eclipse.cdt.internal.qt.core.Activator$1.run(Activator.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-08 04:15:14.908
+!MESSAGE Indexed 'Question_01' (1 sources, 20 headers) in 1.2 sec: 1,494 declarations; 2,036 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
