@@ -1,0 +1,49 @@
+/*
+ ============================================================================
+ Name        : Question_02.c
+ Author      : Youssef El-Nemaky
+ Description : Write a function which, given a string, return TRUE if all
+characters are distinct and FALSE if any character is repeated
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int isDistinct(char *);
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	char str[51];
+
+	printf("Enter your string (max 50 characters): ");
+	gets(str);
+
+	if(isDistinct(str)){
+		printf("all characters are distinct");
+	} else printf("not all characters are distinct");
+
+	return 0;
+}
+
+
+int isDistinct(char * strPtr){
+
+	for(int i = 0; strPtr[i] != '\0'; i++){
+		if(strPtr[i] == ' '){
+			continue;
+		}
+		// might even check if it's a character or not
+
+		for(int j  = i + 1; strPtr[j] != '\0'; j++){
+			if(strPtr[j] == ' '){
+				continue;
+			}
+			if(strPtr[i] == strPtr[j]){
+				return 0;
+			}
+		}
+	}
+	return 1;
+}

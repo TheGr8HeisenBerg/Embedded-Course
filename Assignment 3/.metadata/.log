@@ -23,3 +23,6 @@ javax.script.ScriptException: Nashorn script engine is not available in Java 15 
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-01-08 04:15:14.908
 !MESSAGE Indexed 'Question_01' (1 sources, 20 headers) in 1.2 sec: 1,494 declarations; 2,036 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-08 04:21:05.317
+!MESSAGE Indexed 'Question_02' (1 sources, 20 headers) in 0.212 sec: 1,494 declarations; 2,036 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
