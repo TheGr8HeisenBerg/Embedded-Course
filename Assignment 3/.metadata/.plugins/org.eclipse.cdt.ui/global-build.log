@@ -1,16 +1,38 @@
-06:02:25 **** Incremental Build of configuration Debug for project Question_08 ****
+07:17:15 **** Incremental Build of configuration Debug for project Question_09 ****
 Info: Internal Builder is used for build
-gcc -o Question_08.exe "src\\Question_08.o" 
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
-06:03:12 **** Incremental Build of configuration Debug for project Question_08 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_09.o" "..\\src\\Question_09.c" 
+gcc -o Question_09.exe "src\\Question_09.o" 
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+07:17:53 **** Incremental Build of configuration Debug for project Question_09 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_08.o" "..\\src\\Question_08.c" 
-gcc -o Question_08.exe "src\\Question_08.o" 
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
-Info: Nothing to build for Question_08
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_09.o" "..\\src\\Question_09.c" 
+gcc -o Question_09.exe "src\\Question_09.o" 
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+07:26:29 **** Incremental Build of configuration Debug for project Question_09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_09.o" "..\\src\\Question_09.c" 
+gcc -o Question_09.exe "src\\Question_09.o" 
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+07:27:01 **** Incremental Build of configuration Debug for project Question_09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_09.o" "..\\src\\Question_09.c" 
+gcc -o Question_09.exe "src\\Question_09.o" 
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
+Info: Nothing to build for Question_09
