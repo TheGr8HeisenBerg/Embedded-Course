@@ -28,9 +28,9 @@ int main(void) {
 }
 
 void reverseString(char * str){
-	int strLength = stringLength(str);
-	int i  = 0, j = strLength - 1;
-	for(i = 0; i < strLength / 2; i++, j--){
+	int i  = 0, j = stringLength(str) - 1;
+
+	for(i = 0; i < j; i++, j--){
 		str[i] = str[i] ^ str[j];
 		str[j] = str[i] ^ str[j];
 		str[i] = str[i] ^ str[j];

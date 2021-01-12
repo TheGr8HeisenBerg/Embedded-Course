@@ -34,3 +34,7 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Questi
 gcc -o Question_14.exe "src\\Question_14.o" 
 Info: Nothing to build for Question_14
 Info: Nothing to build for Question_14
+03:14:14 **** Incremental Build of configuration Debug for project Question_14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
