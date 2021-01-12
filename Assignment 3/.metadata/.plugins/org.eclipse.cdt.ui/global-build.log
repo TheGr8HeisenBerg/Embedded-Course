@@ -1,12 +1,36 @@
-20:01:15 **** Incremental Build of configuration Debug for project Question_13 ****
+01:47:28 **** Rebuild of configuration Debug for project Question_14 ****
 Info: Internal Builder is used for build
-gcc -o Question_13.exe "src\\Question_13.o" 
-Info: Nothing to build for Question_13
-20:01:51 **** Incremental Build of configuration Debug for project Question_13 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+Info: Nothing to build for Question_14
+01:48:26 **** Incremental Build of configuration Debug for project Question_14 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_13.o" "..\\src\\Question_13.c" 
-gcc -o Question_13.exe "src\\Question_13.o" 
-20:05:16 **** Incremental Build of configuration Debug for project Question_13 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+01:49:41 **** Incremental Build of configuration Debug for project Question_14 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_13.o" "..\\src\\Question_13.c" 
-gcc -o Question_13.exe "src\\Question_13.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+Info: Nothing to build for Question_14
+Info: Nothing to build for Question_14
+01:50:38 **** Incremental Build of configuration Debug for project Question_14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+Info: Nothing to build for Question_14
+Info: Nothing to build for Question_14
+Info: Nothing to build for Question_14
+01:56:46 **** Incremental Build of configuration Debug for project Question_14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+01:58:38 **** Incremental Build of configuration Debug for project Question_14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+03:10:31 **** Incremental Build of configuration Debug for project Question_14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+Info: Nothing to build for Question_14
+Info: Nothing to build for Question_14
