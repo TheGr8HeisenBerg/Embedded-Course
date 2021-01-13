@@ -1,7 +1,4 @@
-22:18:28 **** Rebuild of configuration Debug for project Question_21 ****
+23:21:56 **** Incremental Build of configuration Debug for project Question_22 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_21.o" "..\\src\\Question_21.c" 
-gcc -o Question_21.exe "src\\Question_21.o" 
-Info: Nothing to build for Question_21
-Info: Nothing to build for Question_21
-Info: Nothing to build for Question_21
+gcc -o Question_22.exe "src\\Question_22.o" 
+Info: Nothing to build for Question_22
