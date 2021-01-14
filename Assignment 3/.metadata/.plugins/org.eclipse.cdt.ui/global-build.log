@@ -1,4 +1,159 @@
-23:21:56 **** Incremental Build of configuration Debug for project Question_22 ****
+02:45:25 **** Incremental Build of configuration Debug for project Question_23 ****
 Info: Internal Builder is used for build
-gcc -o Question_22.exe "src\\Question_22.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+Info: Nothing to build for Question_23
+02:47:34 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+Info: Nothing to build for Question_23
+Info: Nothing to build for Question_23
+Info: Nothing to build for Question_23
+02:51:06 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Question_23.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:51:54 **** Rebuild of configuration Debug for project Question_01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_01.o" "..\\src\\Question_01.c" 
+gcc -o Question_01.exe "src\\Question_01.o" 
+02:51:55 **** Rebuild of configuration Debug for project Question_02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_02.o" "..\\src\\Question_02.c" 
+gcc -o Question_02.exe "src\\Question_02.o" 
+02:51:55 **** Rebuild of configuration Debug for project Question_03 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_03.o" "..\\src\\Question_03.c" 
+gcc -o Question_03.exe "src\\Question_03.o" 
+02:51:56 **** Rebuild of configuration Debug for project Question_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_04.o" "..\\src\\Question_04.c" 
+gcc -o Question_04.exe "src\\Question_04.o" 
+02:51:56 **** Rebuild of configuration Debug for project Question_05 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_05.o" "..\\src\\Question_05.c" 
+gcc -o Question_05.exe "src\\Question_05.o" 
+02:51:57 **** Rebuild of configuration Debug for project Question_06 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_06.o" "..\\src\\Question_06.c" 
+gcc -o Question_06.exe "src\\Question_06.o" 
+02:51:58 **** Rebuild of configuration Debug for project Question_07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_07.o" "..\\src\\Question_07.c" 
+gcc -o Question_07.exe "src\\Question_07.o" 
+02:51:58 **** Rebuild of configuration Debug for project Question_08 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_08.o" "..\\src\\Question_08.c" 
+gcc -o Question_08.exe "src\\Question_08.o" 
+02:51:59 **** Rebuild of configuration Debug for project Question_09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_09.o" "..\\src\\Question_09.c" 
+gcc -o Question_09.exe "src\\Question_09.o" 
+02:51:59 **** Rebuild of configuration Debug for project Question_10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_10.o" "..\\src\\Question_10.c" 
+gcc -o Question_10.exe "src\\Question_10.o" 
+02:51:59 **** Rebuild of configuration Debug for project Question_11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_11.o" "..\\src\\Question_11.c" 
+gcc -o Question_11.exe "src\\Question_11.o" 
+02:52:00 **** Rebuild of configuration Debug for project Question_12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_12.o" "..\\src\\Question_12.c" 
+gcc -o Question_12.exe "src\\Question_12.o" 
+02:52:00 **** Rebuild of configuration Debug for project Question_13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_13.o" "..\\src\\Question_13.c" 
+gcc -o Question_13.exe "src\\Question_13.o" 
+02:52:01 **** Rebuild of configuration Debug for project Question_14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_14.o" "..\\src\\Question_14.c" 
+gcc -o Question_14.exe "src\\Question_14.o" 
+02:52:02 **** Rebuild of configuration Debug for project Question_15 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_15.o" "..\\src\\Question_15.c" 
+gcc -o Question_15.exe "src\\Question_15.o" 
+02:52:02 **** Rebuild of configuration Debug for project Question_17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_17.o" "..\\src\\Question_17.c" 
+gcc -o Question_17.exe "src\\Question_17.o" 
+02:52:03 **** Rebuild of configuration Debug for project Question_18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_18.o" "..\\src\\Question_18.c" 
+gcc -o Question_18.exe "src\\Question_18.o" 
+02:52:03 **** Rebuild of configuration Debug for project Question_19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_19.o" "..\\src\\Question_19.c" 
+gcc -o Question_19.exe "src\\Question_19.o" 
+02:52:04 **** Rebuild of configuration Debug for project Question_20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_20.o" "..\\src\\Question_20.c" 
+gcc -o Question_20.exe "src\\Question_20.o" 
+02:52:04 **** Rebuild of configuration Debug for project Question_21 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_21.o" "..\\src\\Question_21.c" 
+gcc -o Question_21.exe "src\\Question_21.o" 
 Info: Nothing to build for Question_22
+02:52:05 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -o Question_23.exe "src\\Question_23.o" 
+Info: Nothing to build for Question_23
+Info: Nothing to build for Question_23
+02:53:56 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+02:54:52 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+02:56:11 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+02:57:51 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+..\src\Question_23.c: In function 'printStringAndCountArray':
+..\src\Question_23.c:39:10: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("%c %d\n", arr[i]);
+          ^
+gcc -o Question_23.exe "src\\Question_23.o" 
+02:59:38 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Question_23.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:00:40 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -o Question_23.exe "src\\Question_23.o" 
+Info: Nothing to build for Question_23
+03:03:19 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+Info: Nothing to build for Question_23
+03:03:50 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+03:04:07 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+03:04:17 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+03:04:36 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
+03:05:19 **** Incremental Build of configuration Debug for project Question_23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Question_23.o" "..\\src\\Question_23.c" 
+gcc -o Question_23.exe "src\\Question_23.o" 
