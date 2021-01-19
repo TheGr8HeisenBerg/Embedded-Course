@@ -1,0 +1,18 @@
+02:33:10 **** Incremental Build of configuration Debug for project Exercise 2 ****
+make all 
+Building file: ../Exercise 2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Exercise 2.d" -MT"Exercise\ 2.d" -c -o "Exercise 2.o" "../Exercise 2.c"
+In file included from ../Exercise 2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Exercise 2.c
+ 
+Building target: Exercise 2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Exercise 2.map -mmcu=atmega16 -o "Exercise 2.elf"  ./Exercise\ 2.o   
+avr-gcc.exe: 2.map: No such file or directory
+make: *** [Exercise 2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+02:33:10 Build Failed. 1 errors, 1 warnings. (took 345ms)
+
