@@ -1,4 +1,4 @@
-09:32:46 **** Incremental Build of configuration Debug for project Challenge1 ****
+16:20:08 **** Incremental Build of configuration Debug for project Youssef_Mmdoh_El-Nemaky_Mini_Project ****
 make all 
 Building file: ../main.c
 Invoking: AVR Compiler
@@ -7,25 +7,25 @@ In file included from ../main.c:9:
 c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
 Finished building: ../main.c
  
-Building target: Challenge1.elf
+Building target: Youssef_Mmdoh_El-Nemaky_Mini_Project.elf
 Invoking: AVR C Linker
-avr-gcc -Wl,-Map,Challenge1.map -mmcu=atmega16 -o "Challenge1.elf"  ./main.o   
-Finished building target: Challenge1.elf
+avr-gcc -Wl,-Map,Youssef_Mmdoh_El-Nemaky_Mini_Project.map -mmcu=atmega16 -o "Youssef_Mmdoh_El-Nemaky_Mini_Project.elf"  ./main.o   
+Finished building target: Youssef_Mmdoh_El-Nemaky_Mini_Project.elf
  
 Invoking: AVR Create Extended Listing
-avr-objdump -h -S Challenge1.elf  >"Challenge1.lss"
-Finished building: Challenge1.lss
+avr-objdump -h -S Youssef_Mmdoh_El-Nemaky_Mini_Project.elf  >"Youssef_Mmdoh_El-Nemaky_Mini_Project.lss"
+Finished building: Youssef_Mmdoh_El-Nemaky_Mini_Project.lss
  
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega16 Challenge1.elf
+avr-size --format=avr --mcu=atmega16 Youssef_Mmdoh_El-Nemaky_Mini_Project.elf
 AVR Memory Usage
 ----------------
 Device: atmega16
 
-Program:    3296 bytes (20.1% Full)
+Program:    4124 bytes (25.2% Full)
 (.text + .data + .bootloader)
 
-Data:          8 bytes (0.8% Full)
+Data:         11 bytes (1.1% Full)
 (.data + .bss + .noinit)
 
 

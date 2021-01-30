@@ -1,36 +1,24 @@
-07:31:42 **** Build of configuration Debug for project Exercise4 ****
+12:31:30 **** Build of configuration Debug for project Exercise4 ****
 make all 
-Building file: ../main.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
-In file included from ../main.c:9:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../main.c
- 
-Building target: Exercise4.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,Exercise4.map -mmcu=atmega16 -o "Exercise4.elf"  ./main.o   
-Finished building target: Exercise4.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S Exercise4.elf  >"Exercise4.lss"
-Finished building: Exercise4.lss
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex Exercise4.elf  "Exercise4.eep"
+Finished building: Exercise4.eep
  
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega16 Exercise4.elf
+avr-size --format=avr --mcu=atmega32 Exercise4.elf
 AVR Memory Usage
 ----------------
-Device: atmega16
+Device: atmega32
 
-Program:    3372 bytes (20.6% Full)
+Program:    3372 bytes (10.3% Full)
 (.text + .data + .bootloader)
 
-Data:          8 bytes (0.8% Full)
+Data:          8 bytes (0.4% Full)
 (.data + .bss + .noinit)
 
 
 Finished building: sizedummy
  
 
-07:31:43 Build Finished. 0 errors, 1 warnings. (took 945ms)
+12:31:31 Build Finished. 0 errors, 0 warnings. (took 1s.245ms)
 

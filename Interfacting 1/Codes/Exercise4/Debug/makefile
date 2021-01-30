@@ -32,6 +32,12 @@ endif
 LSS += \
 Exercise4.lss \
 
+FLASH_IMAGE += \
+Exercise4.hex \
+
+EEPROM_IMAGE += \
+Exercise4.eep \
+
 SIZEDUMMY += \
 sizedummy \
 
@@ -43,7 +49,7 @@ all: Exercise4.elf secondary-outputs
 Exercise4.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,Exercise4.map -mmcu=atmega16 -o "Exercise4.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,Exercise4.map -mmcu=atmega32 -o "Exercise4.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -53,18 +59,30 @@ Exercise4.lss: Exercise4.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
+Exercise4.hex: Exercise4.elf
+	@echo 'Create Flash image (ihex format)'
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Exercise4.elf  "Exercise4.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+Exercise4.eep: Exercise4.elf
+	@echo 'Create eeprom image (ihex format)'
+	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex Exercise4.elf  "Exercise4.eep"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 sizedummy: Exercise4.elf
 	@echo 'Invoking: Print Size'
-	-avr-size --format=avr --mcu=atmega16 Exercise4.elf
+	-avr-size --format=avr --mcu=atmega32 Exercise4.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) Exercise4.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(EEPROM_IMAGE)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) Exercise4.elf
 	-@echo ' '
 
-secondary-outputs: $(LSS) $(SIZEDUMMY)
+secondary-outputs: $(LSS) $(FLASH_IMAGE) $(EEPROM_IMAGE) $(SIZEDUMMY)
 
 .PHONY: all clean dependents
 
