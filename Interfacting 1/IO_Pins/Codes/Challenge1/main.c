@@ -2,7 +2,7 @@
  * main.c
  *
  *  Created on: Jan 19, 2021
- *      Author: JIGamer
+ *      Author: Youssef
  */
 
 #include <avr/io.h>
